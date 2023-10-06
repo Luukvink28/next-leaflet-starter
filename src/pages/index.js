@@ -7,6 +7,7 @@ import Map from '@components/Map';
 
 import styles from '@styles/Home.module.scss';
 
+
 const DEFAULT_CENTER = [52.079286, 4.312190]
 const popup1 = [52.079286, 4.312190]
 
@@ -59,7 +60,7 @@ export default function Home() {
 
       <Section>
         <Container>
-        <h2 className={styles.text}>Bezichtingen map van Den Haag</h2>
+        <h2 className={styles.text}>Bezichtingen kaart van Den Haag</h2>
           <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={12}>
             {({ TileLayer, Marker, Popup }) => (
               <>
