@@ -59,7 +59,7 @@ export default function Home() {
 
       <Section>
         <Container>
-
+        <h2 className={styles.text}>Bezichtingen map van Den Haag</h2>
           <Map className={styles.homeMap} width="800" height="400" center={DEFAULT_CENTER} zoom={12}>
             {({ TileLayer, Marker, Popup }) => (
               <>
@@ -69,102 +69,122 @@ export default function Home() {
                 />
                 <Marker position={popup1}>
                   <Popup>
-                   binnenhof
+                   <h2>Het Binnenhof</h2>
+                   <p>Het historische politieke centrum van Den Haag.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup2}>
                   <Popup>
-                    ridderzaal
+                    <h2>De Ridderzaal</h2>
+                    <p>Een prachtig middeleeuws gebouw met een rijke geschiedenis.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup3}>
                   <Popup>
-                    vredespaleis
+                    <h2>Het Vredespaleis</h2>
+                    <p>Een iconisch symbool van vrede en internationale gerechtigheid.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup4}>
                   <Popup>
-                    paleis noordeinde
+                    <h2>Paleis Noordeinde</h2>
+                    <p>De officiële residentie van de Nederlandse koning.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup5}>
                   <Popup>
-                   mauritshuis
+                   <h2>Het Mauritshuis</h2>
+                   <p>Een beroemd museum met een indrukwekkende kunstcollectie.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup6}>
                   <Popup>
-                    lange voorhout
+                    <h2>Lange Voorhout</h2>
+                    <p>Een schilderachtige laan met mooie gebouwen en kunstwerken.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup7}>
                   <Popup>
-                  Museum de Gevangenpoort
+                  <h2>Museum de Gevangenpoort</h2>
+                  <p>Een historisch museum in een voormalige gevangenis.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup8}>
                   <Popup>
-                    Het Oude Stadhuis
+                    <h2>Het Oude Stadhuis</h2>
+                    <p>Een historisch stadhuis met prachtige architectuur.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup9}>
                   <Popup>
-                    Sint-Jacobskerk
+                    <h2>De Sint-Jacobskerk</h2>
+                    <p>Een oude kerk met een rijke geschiedenis en architectuur.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup10}>
                   <Popup>
-                    Stadhuis Den Haag
+                    <h2>Stadhuis Den Haag</h2>
+                    <p>Het moderne stadhuis van Den Haag.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup11}>
                   <Popup>
-                    Madurodam
+                    <h2>Madurodam</h2>
+                    <p>Een miniatuurpark dat Nederland in het klein laat zien.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup12}>
                   <Popup>
-                    Panorama Mesdag
+                    <h2>Panorama Mesdag</h2>
+                    <p>Een uniek cilindervormig schilderij van een zeegezicht.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup13}>
                   <Popup>
-                    Escher in Het Paleis
+                    <h2>Escher in Het Paleis</h2>
+                    <p>Een museum gewijd aan de kunstenaar M.C. Escher.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup14}>
                   <Popup>
-                    Kunstmuseum Den Haag
+                    <h2>Kunstmuseum Den Haag</h2>
+                    <p>Een museum met een uitgebreide kunstcollectie.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup15}>
                   <Popup>
-                    Duinrell Amusement Park
+                    <h2>Duinrell Amusement Park</h2>
+                    <p> Een pretpark met attracties en glijbanen.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup16}>
                   <Popup>
-                    Scheveningen Strand
+                    <h2>Scheveningen Strand</h2>
+                    <p>Het populairste strand van Den Haag.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup17}>
                   <Popup>
-                    Haagse Markt
+                    <h2>De Haagse Markt</h2>
+                    <p>Een levendige markt met diverse producten en gerechten.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup18}>
                   <Popup>
-                    Museon
+                    <h2>Museon</h2>
+                    <p>Een museum voor cultuur en wetenschap.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup19}>
                   <Popup>
-                    De Pier
+                    <h2>De Pier</h2>
+                    <p>Een iconische pier met winkels, restaurants en attracties.</p>
                   </Popup>
                 </Marker>
                 <Marker position={popup20}>
                   <Popup>
-                    Haags Historisch Museum
+                    <h2>Haags Historisch Museum</h2>
+                    <p>Een museum dat de geschiedenis van Den Haag belicht.</p>
                   </Popup>
                 </Marker>
 

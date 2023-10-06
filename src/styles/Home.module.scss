@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
 .title {
   font-size: 3rem;
   line-height: 1.15;
@@ -23,4 +25,11 @@
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+}
+.text {
+  text-align: center;
+  color: #155428;
+  font-family: 'Merriweather Sans', sans-serif;
+  line-height: 1.6;
+  margin-bottom: 30px;
 }
