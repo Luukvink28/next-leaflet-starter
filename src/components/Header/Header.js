@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaGithub } from 'react-icons/fa';
 
 import Container from '@components/Container';
@@ -10,19 +11,11 @@ const Header = () => {
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
         <p className={styles.headerTitle}>
-          <Link href="/">
-            Next.js Leaflet Starter
-          </Link>
+            <Image width={300} height={30} src={"https://www.denhaag.nl/static/denhaagrestylepresentation/images/DH-NL-Rgb-CS6.svg"}></Image>
         </p>
-        <ul className={styles.headerLinks}>
-          <li>
-            <a href="https://github.com/colbyfayock/next-leaflet-starter" rel="noreferrer">
-              <FaGithub />
-            </a>
-          </li>
-        </ul>
       </Container>
     </header>
+
   );
 };
 
